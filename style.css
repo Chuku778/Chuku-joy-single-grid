@@ -1,0 +1,84 @@
+ * {
+      padding: 0;
+      margin:  0;}
+  body { 
+     background-color: hsl(204, 43%, 93%);
+     min-height: 100vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;}
+
+  .container {
+     width: 50%; 
+     }
+
+.upperpart { background-color: white; 
+            padding: 25px 30px;
+          border-top-left-radius: 5px;
+          border-top-right-radius:5px;}
+
+.subamount {
+     background-color: hsl(179 62% 43%);
+     width: 50%; 
+     padding-top: 35px;padding-bottom: 20px; padding-left: 30px;
+     color: white;
+     border-bottom-left-radius: 5px;
+}
+
+.info { background-color: hsla(179, 62%, 43%, 0.673);
+      color: white;
+      padding-top: 35px; padding-bottom: 20px; padding-left: 30px;
+      width: 50%; border-bottom-right-radius: 5px;}
+
+ .wrapper { display: flex;
+      font-size: 12px;}
+
+.invite {
+     color: hsl(179 62% 43%) ;
+     font-size: 16px;
+     font-weight: 600;
+     margin-bottom: 10px;
+     width: 400px;}
+     .benefit {color: beige;}
+
+.guarantee {
+     font-size: 14px;
+     color: hsl(71, 73%, 54%);
+     margin-bottom: 10px;}
+
+ .monthly,.why-us {
+          font-weight: bold;
+           font-size: 14px; 
+           font-height: 14px; 
+           margin-bottom: 10px;}
+
+.access { 
+     color: hsl(218, 22%,67%);
+      font-size: 12px;}
+
+.currency {
+     font-size: 25px;}
+.perday { 
+     margin-top: 7px;
+      margin-bottom: 25px;}
+
+     button { background-color: hsl(71, 73%, 54%);
+     color: white; padding: 14px; b0rder-width: 500px;border: none; border-radius: 5px; width: 100px;}
+     button:hover { 
+          color: brown;}
+     button:active {color: red;}
+     footer { margin-top: 60px;}
+
+
+
+
+@media (max-width: 600px ) {
+    .container { display: flex;flex-direction: column; width: 300px; height:674px}
+
+    .body { height: 100vh; display: flex; justify-content: center; align-items: center;}
+    .wrapper {flex-direction: column;}
+    .subamount { width: 300px;}
+    .access {
+     width: 300px;}
+     .info {width: 300px;} }
